@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Wrangler
+.wrangler/
+.dev.vars
+
+# Windows/WSL download metadata
+*:Zone.Identifier
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Local env
+.env
+.env.local
