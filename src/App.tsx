@@ -451,7 +451,7 @@ export default function App() {
               transition={{ delay: 0.3, duration: 0.8 }}
               className="text-lg sm:text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-10"
             >
-              Focal Impact Consulting delivers transformative solutions across development,
+              Focal Impact Limited delivers transformative solutions across development,
               technology, and business strategy to create lasting positive change.
             </motion.p>
             <motion.div
@@ -735,7 +735,7 @@ function AboutSection() {
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl text-foreground mb-6">About Focal Impact</h2>
             <p className="text-lg text-muted-foreground mb-4">
-              Focal Impact Consulting is a dynamic firm founded and registered in Nairobi, Kenya, specializing in development consulting,
+              Focal Impact Limited is a dynamic firm founded and registered in Nairobi, Kenya, specializing in development consulting,
               technology solutions, and strategic business advisory. We partner with organizations
               to create sustainable impact through evidence-based approaches and innovative solutions.
             </p>
@@ -1173,7 +1173,7 @@ function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-8 text-center text-sm text-white/70">
-          <p>&copy; {new Date().getFullYear()} Focal Impact Consulting. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Focal Impact Limited. All rights reserved.</p>
         </div>
       </div>
     </footer>
