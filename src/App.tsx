@@ -304,11 +304,13 @@ export default function App() {
               transition={{ delay: 0.2 }}
               className="flex items-center gap-2"
             >
-              <img
-                src="/logo.png"
-                alt="Focal Impact Limited"
-                className="h-12 w-auto"
-              />
+              <a href="https://www.focalimpact.co.ke/" aria-label="Focal Impact Limited home">
+                <img
+                  src="/logo.png"
+                  alt="Focal Impact Limited"
+                  className="h-12 w-auto"
+                />
+              </a>
             </motion.div>
 
             {/* Desktop Menu */}
@@ -1114,11 +1116,13 @@ function Footer() {
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img
-                src="/logo.png"
-                alt="Focal Impact Limited"
-                className="h-14 w-auto brightness-0 invert"
-              />
+              <a href="https://www.focalimpact.co.ke/" aria-label="Focal Impact Limited home">
+                <img
+                  src="/logo-white.png"
+                  alt="Focal Impact Limited"
+                  className="h-14 w-auto"
+                />
+              </a>
             </div>
             <p className="text-white/70 text-sm">
               Transforming organizations through strategic consulting and innovative solutions.
