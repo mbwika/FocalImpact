@@ -294,8 +294,7 @@ export default function App() {
       <motion.nav
         initial={{ y: -100 }}
         animate={{ y: 0 }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-white/95 backdrop-blur-md shadow-md" : "bg-transparent"
-          }`}
+        className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-md transition-all duration-300"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
@@ -305,10 +304,11 @@ export default function App() {
               transition={{ delay: 0.2 }}
               className="flex items-center gap-2"
             >
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white">FI</span>
-              </div>
-              <span className="text-xl text-foreground">Focal Impact</span>
+              <img
+                src="/logo.png"
+                alt="Focal Impact Limited"
+                className="h-12 w-auto"
+              />
             </motion.div>
 
             {/* Desktop Menu */}
@@ -417,7 +417,7 @@ export default function App() {
       <section id="home" className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="public/header-image.jpg"
+            src="/header-image.jpg"
             // src="https://images.unsplash.com/photo-1637855195094-992d3d578f42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGNvbnN1bHRpbmclMjB0ZWFtfGVufDF8fHx8MTc2MjA3MzAzNHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
             alt="Handshake representing partnership"
             className="w-full h-full object-cover"
@@ -1114,10 +1114,11 @@ function Footer() {
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white">FI</span>
-              </div>
-              <span className="text-xl">Focal Impact</span>
+              <img
+                src="/logo.png"
+                alt="Focal Impact Limited"
+                className="h-14 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-white/70 text-sm">
               Transforming organizations through strategic consulting and innovative solutions.
