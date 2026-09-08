@@ -1120,7 +1120,7 @@ function Footer() {
                 <img
                   src="/logo-white.png"
                   alt="Focal Impact Limited"
-                  className="h-14 w-auto"
+                  className="h-7 w-auto"
                 />
               </a>
             </div>
